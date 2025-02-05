@@ -3,7 +3,9 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send("Hi there!");
 });
 
-app.listen(port)
+app.listen(port, () => {
+console.log("The server is running");
+})
