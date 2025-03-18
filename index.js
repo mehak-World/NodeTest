@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get("/", (req, res) => {
-    res.send("Web App successfully deployed on Microsoft Azure!");
+    res.send("Web App successfully deployed");
 });
 
 app.listen(PORT, () => {
